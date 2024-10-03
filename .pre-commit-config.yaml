@@ -92,24 +92,6 @@ repos:
     hooks:
       - id: cfn-lint-rc
         stages: [pre-commit]
-  # - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook.git
-  #   rev: 'v9.18.0'
-  #   hooks:
-  #     - id: commitlint
-  #       name: Commitlint hook
-  #       description: Commitlint hook
-  #       stages: [commit-msg]
-  # - repo: local
-  #   hooks:
-  #     - id: commitlint
-  #       name: Commitlint hook
-  #       description: Commitlint hook
-  #       language: node
-
-  #       entry: npx commitlint --edit
-  #       pass_filenames: false
-  #       always_run: true
-
   - repo: https://github.com/commitizen-tools/commitizen
     rev: v3.29.1
     hooks:
