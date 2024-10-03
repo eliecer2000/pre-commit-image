@@ -99,12 +99,20 @@ repos:
   #       name: Commitlint hook
   #       description: Commitlint hook
   #       stages: [commit-msg]
-  - repo: local
+  # - repo: local
+  #   hooks:
+  #     - id: commitlint
+  #       name: Commitlint hook
+  #       description: Commitlint hook
+  #       language: node
+
+  #       entry: npx commitlint --edit
+  #       pass_filenames: false
+  #       always_run: true
+
+  - repo: https://github.com/commitizen-tools/commitizen
+    rev: master
     hooks:
-      - id: commitlint
-        name: Commitlint hook
-        description: Commitlint hook
-        language: node
-        entry: npx commitlint --edit
-        pass_filenames: false
-        always_run: true
+      - id: commitizen
+      - id: commitizen-branch
+        stages: [push]
