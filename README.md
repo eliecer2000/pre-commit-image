@@ -31,15 +31,10 @@ Después de instalar los hooks con el comando anterior, podrás ejecutar **pre-c
 
 Este proyecto sigue las convenciones de [**Conventional Commits**](https://www.conventionalcommits.org/) para estructurar los mensajes de commit. Asegúrate de seguir estas reglas al crear tus commits, incluyendo referencias a los issues de **Jira** cuando sea necesario.
 
-- **feat**: Para nuevas características.
-- **fix**: Para correcciones de errores.
-- **chore**: Para tareas de mantenimiento o configuraciones que no cambian el comportamiento del código.
-- **refactor**: Para refactorizaciones sin cambios visibles.
-
 Ejemplo de un mensaje de commit convencional con referencia a un issue de Jira:
 
 ```
-feat: add new pre-commit hook for linting [JIRA-123]
+feat(PROJ-123): add new pre-commit hook for linting
 ```
 
 ### Contribución
