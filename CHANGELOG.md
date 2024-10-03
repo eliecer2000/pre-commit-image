@@ -1,3 +1,14 @@
+## [1.0.17](https://github.com/eliecer2000/pre-commit-image/compare/v1.0.16...v1.0.17) (2024-10-03)
+
+
+### Bug Fixes
+
+* add ESLint configuration file ([38ebee2](https://github.com/eliecer2000/pre-commit-image/commit/38ebee23e8e2811cfe86266031e7683dec2eb8d3))
+* add ESLint configuration file ([b2edc27](https://github.com/eliecer2000/pre-commit-image/commit/b2edc27dcc47036c86bd43cd45a9bbc1df47c68a))
+* add ESLint configuration file ([8184b67](https://github.com/eliecer2000/pre-commit-image/commit/8184b670738e940ff6ffb133fa07fec298209cc6))
+* add ESLint configuration file ([90f7cdd](https://github.com/eliecer2000/pre-commit-image/commit/90f7cdd8754049ee531064b2f95a89a07fdd0594))
+* add ESLint configuration file ([faa2809](https://github.com/eliecer2000/pre-commit-image/commit/faa2809175d77edcc7da674dd20ecf5564c5373a))
+
 ## [1.0.16](https://github.com/eliecer2000/pre-commit-image/compare/v1.0.15...v1.0.16) (2024-10-03)
 
 
