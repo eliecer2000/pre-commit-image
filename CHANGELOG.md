@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/eliecer2000/pre-commit-image/compare/v1.0.1...v1.0.2) (2024-10-03)
+
+
+### Bug Fixes
+
+* add file group ([b2cdce9](https://github.com/eliecer2000/pre-commit-image/commit/b2cdce9c1d13fd914e1cfc81839dfbeea106036b))
+
 ## [1.0.1](https://github.com/eliecer2000/pre-commit-image/compare/v1.0.0...v1.0.1) (2024-10-03)
 
 
