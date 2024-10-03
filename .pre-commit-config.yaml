@@ -114,5 +114,4 @@ repos:
     rev: v3.29.1
     hooks:
       - id: commitizen
-      - id: commitizen-branch
         stages: [commit-msg]

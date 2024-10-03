@@ -16,7 +16,6 @@ COPY .pre-commit-config.yaml /etc/pre-commit-config.yaml
 COPY .editorconfig .
 COPY .prettierignore .
 COPY .prettierrc.yaml .
-COPY commitlint.config.js .
 COPY eslint.config.js /etc/eslint.config.js
 COPY .isort.cfg .
 
