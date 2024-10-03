@@ -31,5 +31,11 @@ exec docker run --rm -v "$(pwd)":/app -w /app eliecer2000/pre-commit-image:lates
 chmod +x "$HOOK_FILE"
 echo "The commit-msg hook has been successfully installed."
 docker run --name temp-container -d eliecer2000/pre-commit-image:latest tail -f /dev/null
+
 docker cp temp-container:/app/commitlint.config.js ./commitlint.config.js
+docker cp temp-container:/app/.eslintrc.js ./.eslintrc.js
+docker cp temp-container:/app/.prettierrc.yaml ./.prettierrc.yaml
+docker cp temp-container:/app/.prettierignore ./.prettierignore
+docker cp temp-container:/app/.editorconfig ./.editorconfig
+
 docker rm -f temp-container
