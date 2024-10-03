@@ -1,10 +1,10 @@
-# Pre-Commit Docker
+# Pre-Commit Image
 
 Este proyecto proporciona una forma sencilla de ejecutar **pre-commit** en un contenedor Docker, sin necesidad de instalar Python, pre-commit, ni las dependencias localmente en tu máquina. Esto permite que el entorno de desarrollo sea más ligero y estandarizado, independientemente de las configuraciones locales de los desarrolladores.
 
 ## Descripción del Proyecto
 
-El proyecto **Pre-Commit Docker** está diseñado para que los equipos puedan ejecutar **pre-commit hooks** utilizando Docker. Esto elimina la necesidad de configurar o mantener las dependencias necesarias para usar pre-commit, como Python, en la máquina local. Simplemente con un solo comando, los usuarios podrán instalar el entorno necesario y ejecutar los hooks preconfigurados.
+El proyecto **Pre-Commit Image** está diseñado para que los equipos puedan ejecutar **pre-commit hooks** utilizando Docker. Esto elimina la necesidad de configurar o mantener las dependencias necesarias para usar pre-commit, como Python, en la máquina local. Simplemente con un solo comando, los usuarios podrán instalar el entorno necesario y ejecutar los hooks preconfigurados.
 
 ### Características:
 
