@@ -14,7 +14,6 @@ ENV XDG_CACHE_HOME=/tmp/.cache
 # Copiar el archivo de configuración de pre-commit dentro de la imagen
 COPY .pre-commit-config.yaml /etc/pre-commit-config.yaml
 COPY .editorconfig .
-COPY .eslintrc.js .
 COPY .prettierignore .
 COPY .prettierrc.yaml .
 COPY commitlint.config.js .
