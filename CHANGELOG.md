@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/eliecer2000/pre-commit-image/compare/v1.0.0...v1.0.1) (2024-10-03)
+
+
+### Bug Fixes
+
+* update env var in repo ([fbd6934](https://github.com/eliecer2000/pre-commit-image/commit/fbd6934c466b6d1f628c14d7fb973c43b1454ae3))
+
 # 1.0.0 (2024-10-03)
 
 
