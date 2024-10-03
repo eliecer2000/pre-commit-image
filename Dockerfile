@@ -18,6 +18,8 @@ COPY .eslintrc.js .
 COPY .prettierignore .
 COPY .prettierrc.yaml .
 COPY commitlint.config.js .
+COPY eslint.config.js .
+
 
 # Instalar pre-commit
 RUN pip install --no-cache-dir pre-commit

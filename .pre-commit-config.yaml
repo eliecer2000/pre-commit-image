@@ -23,7 +23,7 @@ repos:
         args: [--allow-missing-credentials]
         stages: [pre-commit]
   - repo: https://github.com/pre-commit/mirrors-eslint
-    rev: "v9.0.0" # Use the sha / tag you want to point at
+    rev: "v9.11.1" # Use the sha / tag you want to point at
     hooks:
       - id: eslint
         exclude: .*\.(postcssrc|eslintrc).(js)
