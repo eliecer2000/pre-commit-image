@@ -111,7 +111,7 @@ repos:
   #       always_run: true
 
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: master
+    rev: v3.29.1
     hooks:
       - id: commitizen
       - id: commitizen-branch
