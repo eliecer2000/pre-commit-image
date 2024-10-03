@@ -96,4 +96,5 @@ repos:
     rev: v3.29.1
     hooks:
       - id: commitizen
+        name: Commitizen Check
         stages: [commit-msg]
