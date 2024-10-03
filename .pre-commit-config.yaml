@@ -26,7 +26,7 @@ repos:
     rev: "v9.11.1" # Use the sha / tag you want to point at
     hooks:
       - id: eslint
-        exclude: .*\.(postcssrc|eslintrc).(js)
+        exclude: .*\.(postcssrc|eslintrc)\.js$|^package-lock\.json$|^commitlint\.config\.js$|^\.prettierrc\.yaml$
         args: ["--fix", "--config=/etc/eslint.config.js"]
         stages: [pre-commit]
         verbose: true
@@ -55,6 +55,8 @@ repos:
               ^.+\.d.ts$|
               cdk.out\**$|
               package-lock.json|
+              commitlint.config.js|
+              .prettierrc.yaml|
               yarn.lock|
               CHANGELOG.md|
               (.*)\.vtl$|
