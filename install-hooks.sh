@@ -37,5 +37,6 @@ docker cp temp-container:/app/.eslintrc.js ./.eslintrc.js
 docker cp temp-container:/app/.prettierrc.yaml ./.prettierrc.yaml
 docker cp temp-container:/app/.prettierignore ./.prettierignore
 docker cp temp-container:/app/.editorconfig ./.editorconfig
+docker cp temp-container:/app/eslint.config.js ./eslint.config.js
 
 docker rm -f temp-container
