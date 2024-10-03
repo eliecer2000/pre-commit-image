@@ -34,6 +34,6 @@
       "hidden": true
     }
   ],
-  "commitUrlFormat": "https://github.com/eliecer2000/pre-commit-docker/commits/{{hash}}",
-  "compareUrlFormat": "https://github.com/eliecer2000/pre-commit-docker/branches/compare/{{previousTag}}%0D{{currentTag}}"
+  "commitUrlFormat": "https://github.com/eliecer2000/pre-commit-image/commits/{{hash}}",
+  "compareUrlFormat": "https://github.com/eliecer2000/pre-commit-image/branches/compare/{{previousTag}}%0D{{currentTag}}"
 }

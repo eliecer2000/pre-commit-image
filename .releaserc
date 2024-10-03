@@ -2,7 +2,7 @@
   "branches": [
     "main"
   ],
-  "repositoryUrl": "https://github.com/eliecer2000/pre-commit-docker",
+  "repositoryUrl": "https://github.com/eliecer2000/pre-commit-image",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",

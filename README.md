@@ -18,7 +18,7 @@ El proyecto **Pre-Commit Image** está diseñado para que los equipos puedan eje
 Para instalar el script que configura los hooks pre-commit en tu proyecto, solo necesitas ejecutar el siguiente comando en tu terminal:
 
 ```bash
-curl -s https://raw.githubusercontent.com/eliecer2000/pre-commit-docker/master/install-hooks.sh | bash
+curl -s https://raw.githubusercontent.com/eliecer2000/pre-commit-image/master/install-hooks.sh | bash
 ```
 
 Este comando descargará y ejecutará automáticamente el script `install-hooks.sh`, que configurará los hooks pre-commit en tu entorno de desarrollo utilizando Docker.
