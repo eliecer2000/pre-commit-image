@@ -19,6 +19,7 @@ COPY .prettierignore .
 COPY .prettierrc.yaml .
 COPY commitlint.config.js .
 COPY eslint.config.js .
+COPY .isort.cfg .
 
 
 # Instalar pre-commit
