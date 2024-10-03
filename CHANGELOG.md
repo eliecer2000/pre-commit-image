@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/eliecer2000/pre-commit-image/compare/v1.0.18...v1.1.0) (2024-10-03)
+
+
+### Features
+
+* change commitlint library ([5ba2ba4](https://github.com/eliecer2000/pre-commit-image/commit/5ba2ba47c226adf87198b085cf0277fb0764a4d6))
+* change commitlint library ([5e6affd](https://github.com/eliecer2000/pre-commit-image/commit/5e6affd68a6ae438fffb11cd429bae1269e564b1))
+
 ## [1.0.18](https://github.com/eliecer2000/pre-commit-image/compare/v1.0.17...v1.0.18) (2024-10-03)
 
 
