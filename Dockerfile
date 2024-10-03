@@ -19,6 +19,7 @@ COPY .prettierrc.yaml .
 COPY commitlint.config.js .
 COPY eslint.config.js /etc/eslint.config.js
 COPY .isort.cfg .
+COPY check_cdk.sh .
 
 
 # Instalar pre-commit
