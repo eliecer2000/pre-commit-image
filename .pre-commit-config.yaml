@@ -27,7 +27,7 @@ repos:
     hooks:
       - id: eslint
         exclude: .*\.(postcssrc|eslintrc).(js)
-        args: ["--fix"]
+        args: ["--fix", "--config=/etc/eslint.config.js"]
         stages: [pre-commit]
         verbose: true
   - repo: https://github.com/pre-commit/mirrors-prettier
