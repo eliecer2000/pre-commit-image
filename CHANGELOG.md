@@ -1,3 +1,10 @@
+## [1.0.16](https://github.com/eliecer2000/pre-commit-image/compare/v1.0.15...v1.0.16) (2024-10-03)
+
+
+### Bug Fixes
+
+* **PROJ-123:** add ESLint configuration file ([d166ee9](https://github.com/eliecer2000/pre-commit-image/commit/d166ee902b8e9dc8c1ad76cddcc6238bfb678207))
+
 ## [1.0.15](https://github.com/eliecer2000/pre-commit-image/compare/v1.0.14...v1.0.15) (2024-10-03)
 
 
