@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/eliecer2000/pre-commit-image/compare/v1.0.7...v1.0.8) (2024-10-03)
+
+
+### Bug Fixes
+
+* add ESLint configuration file ([9a45281](https://github.com/eliecer2000/pre-commit-image/commit/9a45281ede4ede10ea48f9dcf4a08ca96156a07e))
+
 ## [1.0.7](https://github.com/eliecer2000/pre-commit-image/compare/v1.0.6...v1.0.7) (2024-10-03)
 
 
