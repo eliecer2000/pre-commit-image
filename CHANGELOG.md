@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/eliecer2000/pre-commit-image/compare/v1.1.0...v1.1.1) (2025-02-05)
+
+
+### Bug Fixes
+
+* cdk synth command ([d884cb8](https://github.com/eliecer2000/pre-commit-image/commit/d884cb898b7ea4308ef5da8261cb103a2e1c0a3c))
+
 # [1.1.0](https://github.com/eliecer2000/pre-commit-image/compare/v1.0.18...v1.1.0) (2024-10-03)
 
 
