@@ -15,7 +15,7 @@
     "semantic-release": "^24.1.2"
   },
   "name": "pre-commit-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

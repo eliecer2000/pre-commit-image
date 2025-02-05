@@ -82,7 +82,7 @@ repos:
     hooks:
       - id: cdk-synth
         name: AWS CDK Synth
-        entry: bash -c 'if [ -f "./cdk.json" ]; then cdk synth --all; else npx cdk --version; fi'
+        entry: bash -c 'if [ -f "./cdk.json" ]; then npx cdk synth --all; else npx cdk --version; fi'
         language: system
         files: '^.+\.(py|ts|js|cs|fs|java)'
         pass_filenames: false
